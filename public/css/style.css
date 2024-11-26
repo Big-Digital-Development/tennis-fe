@@ -1,0 +1,200 @@
+.btn-primary-tennis {
+  background-color: white;
+  color: #339966;
+}
+
+.btn-primary-tennis:hover {
+  background-color: white;
+  color: #339966;
+}
+
+.btn-primary-tennis-revert {
+  background-color: #339966;
+  color: white;
+}
+
+.btn-primary-tennis-revert:hover {
+  background-color: #339966;
+  color: white;
+}
+
+.big-container {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+}
+.big-container nav {
+  width: auto;
+  background-image: url(../../assets/img/doodle.svg);
+  background-size: 100px;
+  background-color: #339966;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px;
+  justify-content: space-between;
+}
+.big-container nav .icon {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+  text-align: center;
+}
+.big-container nav a {
+  background-color: white;
+  text-decoration: none;
+  color: #339966;
+  font-weight: bolder;
+  width: 40px;
+  height: 40px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: larger;
+  font-weight: bolder;
+}
+.big-container nav a:hover {
+  background-color: red;
+}
+.big-container .content {
+  display: flex;
+}
+.big-container .content .banner-slider {
+  flex: 6;
+}
+.big-container .content .banner-slider .carousel {
+  height: 100%;
+}
+.big-container .content .banner-slider .carousel .carousel-inner {
+  height: 100%;
+}
+.big-container .content .banner-slider .carousel .carousel-inner .carousel-item {
+  height: 100%;
+}
+.big-container .content .banner-slider .carousel .carousel-inner .carousel-item img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.big-container .content .information {
+  flex: 4;
+  display: flex;
+  align-items: center;
+  background-image: url(../../assets/img/doodle.svg);
+  background-size: 300px;
+  background-color: #339966;
+  color: white;
+}
+.big-container .content .information .box {
+  width: 100%;
+  padding: 0px 20px;
+}
+.big-container .content .information .box .title {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 3px;
+  font-size: 40px;
+}
+.big-container .content .information .box ul {
+  justify-content: center;
+  margin-bottom: 24px;
+}
+.big-container .content .information .box ul li button {
+  color: white;
+  margin-bottom: 0px;
+}
+.big-container .content .information .box ul li .active {
+  background-color: white;
+  color: #339966;
+}
+.big-container .content .information .box .tab-content .tab-pane .row .col-4 {
+  margin-bottom: 24px;
+  display: flex;
+  justify-content: center;
+}
+.big-container .content .information .box .tab-content .tab-pane .row .col-4 .form-check-input:checked {
+  background-color: #339966;
+  border: 1px white solid;
+}
+.big-container .content .information .box button {
+  width: 100%;
+  margin-bottom: 30px;
+}
+.big-container .content .information .box .slider-product {
+  right: 0px;
+  display: flex;
+  gap: 10px;
+}
+.big-container .content .information .box .slider-product .card-product {
+  height: 150px;
+  width: 300px;
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  color: white;
+  font-family: "Oswald", sans-serif;
+  letter-spacing: 2px;
+}
+.big-container .content .information .box .slider-product .card-product img {
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.big-container .content .information .box .slider-product .card-product .text-overlay {
+  position: absolute;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+}
+.big-container .content .information .box .slider-product .card-product .text-overlay p {
+  position: absolute;
+  bottom: 5px;
+  left: 10px;
+  margin: 0px;
+}
+
+@media only screen and (max-width: 600px) {
+  .big-container {
+    flex-direction: column;
+    height: 100vh;
+  }
+  .big-container nav {
+    flex-direction: row;
+    justify-content: center !important;
+  }
+  .big-container nav .icon {
+    flex-direction: row;
+  }
+  .big-container .content {
+    height: 100%;
+    display: block;
+    position: relative;
+  }
+  .big-container .content .banner-slider {
+    height: 100%;
+  }
+  .big-container .content .information {
+    height: 100%;
+    position: absolute;
+    top: 0px;
+    background-image: none;
+    background-color: rgba(51, 153, 102, 0.6196078431);
+  }
+  .big-container .content .information .box {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .big-container .content .slider-product {
+    width: 100%;
+    overflow: visible;
+    bottom: 0%;
+    right: 0%;
+    text-align: center;
+  }
+  .big-container .content .slider-product .card-product .text-overlay p {
+    transform: translate(0%, -200%);
+  }
+}/*# sourceMappingURL=style.css.map */
