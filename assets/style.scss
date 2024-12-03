@@ -18,6 +18,21 @@ $text-sub-header: "Roboto", sans-serif;
     background-color: $green-tennis;
     color: white;
 }
+.btn-primary-tennis-outline {
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
+.btn-primary-tennis-outline:hover {
+    background-color: white;
+    border-color: white;
+    color: $green-tennis;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
 
 .big-container {
     height: 100vh;
@@ -213,6 +228,41 @@ $text-sub-header: "Roboto", sans-serif;
                             transform: translate(0%, -200%);
                         }
                     }
+                }
+            }
+        }
+    }
+}
+
+.check-out-page {
+    background-image: url(../../assets/img/doodle.svg);
+    background-size: 300px;
+    background-color: $green-tennis;
+    color: white;
+    .section-checkout {
+        .title {
+            font-size: larger;
+            font-weight: bolder;
+        }
+    }
+    h1 {
+        text-align: center;
+        margin-top: 24px;
+    }
+}
+
+@media only screen and (min-width: 992px) {
+    .check-out-page {
+        .container {
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            .box {
+                border: 3px white solid;
+                padding: 10px;
+                h1 {
+                    margin-top: 0px;
                 }
             }
         }

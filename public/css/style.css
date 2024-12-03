@@ -18,6 +18,24 @@
   color: white;
 }
 
+.btn-primary-tennis-outline {
+  background-color: transparent;
+  border-color: white;
+  color: white;
+}
+
+.btn-primary-tennis-outline:hover {
+  background-color: white;
+  border-color: white;
+  color: #339966;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 .big-container {
   height: 100vh;
   width: 100%;
@@ -196,5 +214,35 @@
   }
   .big-container .content .slider-product .card-product .text-overlay p {
     transform: translate(0%, -200%);
+  }
+}
+.check-out-page {
+  background-image: url(../../assets/img/doodle.svg);
+  background-size: 300px;
+  background-color: #339966;
+  color: white;
+}
+.check-out-page .section-checkout .title {
+  font-size: larger;
+  font-weight: bolder;
+}
+.check-out-page h1 {
+  text-align: center;
+  margin-top: 24px;
+}
+
+@media only screen and (min-width: 992px) {
+  .check-out-page .container {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .check-out-page .container .box {
+    border: 3px white solid;
+    padding: 10px;
+  }
+  .check-out-page .container .box h1 {
+    margin-top: 0px;
   }
 }/*# sourceMappingURL=style.css.map */

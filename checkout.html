@@ -1,0 +1,202 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
+    <link rel="stylesheet" href="public/css/style.css">
+    <script src="https://kit.fontawesome.com/81147dae2d.js" crossorigin="anonymous"></script>
+    <!-- GFont Header -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <!-- GFont Body -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body class="check-out-page">
+    <div class="container">
+        <div class="box">
+            <div class="row justify-content-center">
+                <div class="col-lg-6 col-md-8">
+                    <h1>Checkout</h1>
+                    <div class="section-checkout contact-information">
+                        <div class="title">
+                            Contact Information
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 mb-3">
+                                <label class="form-label">Nama Lengkap</label>
+                                <input type="text" class="form-control" value="Tubagus Kresna Bayu" disabled>
+                            </div>
+                            <div class="col-lg-6 mb-3">
+                                <label class="form-label">Tanggal Lahir</label>
+                                <input type="date" class="form-control" value="13 Oktober 1996" disabled>
+                            </div>
+                            <div class="col-lg-6 mb-3">
+                                <label class="form-label">Email Aktif</label>
+                                <input type="email" class="form-control" value="name@mail.com" disabled>
+                            </div>
+                            <div class="col-lg-6 mb-3">
+                                <label class="form-label">WhatsApp Aktif</label>
+                                <input type="number" class="form-control" value="6281312341234" disabled>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-checkout items mb-3">
+                        <div class="title">
+                            Items
+                        </div>
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="court">
+                                    Mansion Court
+                                </div>
+                                <div class="session">
+                                    <span>7 - 8, </span><span>8 - 9, </span><span>9 - 10</span>
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="court">
+                                    Mountain View
+                                </div>
+                                <div class="session">
+                                    <span>18 - 19, </span><span>20 - 21</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-checkout payment-method">
+                        <div class="title">
+                            Payment Check
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-6 mb-3">
+                                <label for="">Payment Method</label>
+                                <select class="form-select" aria-label="Default select example">
+                                    <option selected>Open this select menu</option>
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                </select>
+                            </div>
+                            <div class="col-lg-6 mb-3">
+                                <label for="">Voucher Code</label>
+                                <div class="input-group mb-3">
+                                    <input type="text" class="form-control" aria-describedby="button-addon2">
+                                    <button class="btn btn btn-primary-tennis-outline" type="button"
+                                        id="button-addon2">Check</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="section-checkout total mb-3">
+                        <div class="title">
+                            Total
+                        </div>
+                        <div>
+                            IDR <span>200,000</span>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary-tennis w-100 mb-3">
+                        Continue Payment
+                    </button>
+                </div>
+            </div>
+        </div>
+        <!-- <div class="row">
+            <div class="col-lg-6">
+                <div class="title-header">
+                    Booking Information
+                </div>
+                <div class="data">
+                    <div>
+                        <label for="">Name</label>
+                        <p>Tubagus Kresna Bayu</p>
+                    </div>
+                    <div>
+                        <label for="">Birth Date</label>
+                        <p>13 October 1996</p>
+                    </div>
+                    <div>
+                        <label for="">Email</label>
+                        <p>tubagusflow@gmail.com</p>
+                    </div>
+                    <div>
+                        <label for="">WhatsApp Aktif</label>
+                        <p>081311521443</p>
+                    </div>
+                </div>
+                <div class="checkout">
+                    <div>
+                        <label for="">Mansion Hotel</label>
+                        <ul>
+                            <li>
+                                7 - 8
+                            </li>
+                            <li>
+                                8 - 9
+                            </li>
+                            <li>
+                                9 - 10
+                            </li>
+                            <li>
+                                10 - 11
+                            </li>
+                        </ul>
+                    </div>
+                    <div>
+                        <label for="">Moutain View</label>
+                        <ul>
+                            <li>
+                                18 - 19
+                            </li>
+                            <li>
+                                19 - 20
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="title-header">
+                    Payment Check
+                </div>
+                <div class="payment-method">
+                    <div class="mb-3">
+                        <label for="">Payment Method</label>
+                        <select class="form-select" aria-label="Default select example">
+                            <option selected>Open this select menu</option>
+                            <option value="1">One</option>
+                            <option value="2">Two</option>
+                            <option value="3">Three</option>
+                        </select>
+                    </div>
+                    <div class="mb-3">
+                        <label for="">Kode Voucher</label>
+                        <input type="text" class="form-control">
+                    </div>
+                    <div class="mb-3 pricing">
+                        <div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
