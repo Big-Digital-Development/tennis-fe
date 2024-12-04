@@ -1,0 +1,102 @@
+{
+    "data" : [
+        {
+            "court_id" : "12345",        
+            "court_name" : "Mountain View",
+            "court_images" : [
+                "https://www.lovethemountains.co.uk/wp-content/uploads/2018/07/tennisall.jpg",
+                "https://muerren.swiss/assets/images/6/3b1a3964-6pgmzvagj01jnhq.jpg",
+                "https://muerren.swiss/assets/images/w/23e72172-qbmwc7egcbrzjyf.jpg"
+            ],
+            "schedule" : [
+                {
+                    "date" : "26/12/2024",
+                    "session" : [
+                        {   
+                            "session_id" : "12",
+                            "hour_start" : "7",        
+                            "hour_end" : "8",
+                            "price" : "100000",
+                            "status" : true
+                        },
+                        {   
+                            "session_id" : "23",
+                            "hour_start" : "7",        
+                            "hour_end" : "8",
+                            "price" : "100000",
+                            "status" : false
+                        }
+                    ]
+                },
+                {
+                    "date" : "27/12/2024",
+                    "session" : [
+                        {   
+                            "session_id" : "34",
+                            "hour_start" : "18",        
+                            "hour_end" : "19",
+                            "price" : "150000",
+                            "status" : true
+                        },
+                        {   
+                            "session_id" : "45",
+                            "hour_start" : "19",        
+                            "hour_end" : "20",
+                            "price" : "100000",
+                            "status" : true
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "court_id" : "12345",        
+            "court_name" : "Mansion Resort",
+            "court_images" : [
+                "https://img.freepik.com/premium-photo/mansion-with-tennis-court-sports-facilities_933496-11627.jpg",
+                "https://media.cntraveler.com/photos/663d30384000391ef3ad503e/16:9/w_2560%2Cc_limit/Kona%2520Village%2C%2520A%2520Rosewood%2520Resort%2520-%2520TENNIS_RWKVL_Wellness_Fitness_Tennis_01.jpg",
+                "https://www.forbesglobalproperties.com/wp-content/uploads/2022/04/2620-Benedict-Canyon-v2_002-1600x900.jpg"
+            ],
+            "schedule" : [
+                {
+                    "date" : "26/12/2024",
+                    "session" : [
+                        {   
+                            "session_id" : "56",
+                            "hour_start" : "7",        
+                            "hour_end" : "8",
+                            "price" : "100000",
+                            "status" : true
+                        },
+                        {   
+                            "session_id" : "67",
+                            "hour_start" : "7",        
+                            "hour_end" : "8",
+                            "price" : "100000",
+                            "status" : false
+                        }
+                    ]
+                },
+                {
+                    "date" : "27/12/2024",
+                    "session" : [
+                        {   
+                            "session_id" : "78",
+                            "hour_start" : "18",        
+                            "hour_end" : "19",
+                            "price" : "150000",
+                            "status" : true
+                        },
+                        {   
+                            "session_id" : "89",
+                            "hour_start" : "19",        
+                            "hour_end" : "20",
+                            "price" : "100000",
+                            "status" : true
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}
